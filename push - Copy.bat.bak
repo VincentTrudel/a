@@ -1,0 +1,10 @@
+@echo off
+
+REM Add all files to staging area
+git add *
+
+REM Commit with a default message
+git commit -m "-"
+
+REM Push changes to the remote repository
+git push
